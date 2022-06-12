@@ -1,9 +1,15 @@
 :root{
     background-color: hsl(185, 41%, 84%);
+  
+   
 }
+#input3{
+    outline: 0;
+}
+
 .second{
     background-color: hsl(183, 100%, 15%);
-    overflow:scroll;
+    overflow: hidden;
     
 }
 .button{
@@ -95,7 +101,7 @@ button{
         padding-left: 50px;
         margin-bottom: 1250px;
         border-radius: 0.5cm;
-        position: absolute;
+       position: absolute;
     }
     .first{
        padding-left: 40px;
@@ -293,7 +299,7 @@ button{
         padding-left: 50px;
         margin-bottom: 1250px;
         border-radius: 0.5cm;
-        position: absolute;
+       position: absolute;
     }
     .first{
        padding-left: 40px;
@@ -391,7 +397,7 @@ button{
         padding-left: 40px;
         margin-bottom: 1250px;
         border-radius: 0.5cm;
-        position: absolute;
+       position: absolute;
     }
     .first{
        padding-left: 40px;
@@ -1566,7 +1572,7 @@ button{
         padding-left: 30px;
         margin-bottom: 0px;
         border-radius: 0.5cm;
-        /*position: absolute;*/
+        position: absolute;
     }
     .first{
        padding-left: 165px;
@@ -1678,7 +1684,7 @@ button{
             padding-left: 30px;
             margin-bottom: 0px;
             border-radius: 0.5cm;
-            /*position: absolute;*/
+            position: absolute;
         }
         .first{
            padding-left: 165px;
@@ -2950,7 +2956,7 @@ button{
             font-size: 18px;
         }
 }
-.main{
+main{
     
     overflow: scroll;
 }
