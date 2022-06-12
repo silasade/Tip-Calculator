@@ -1568,7 +1568,7 @@ button{
         padding-left: 30px;
         margin-bottom: 0px;
         border-radius: 0.5cm;
-        position: absolute;
+        /*position: absolute;*/
     }
     .first{
        padding-left: 165px;
@@ -1680,7 +1680,7 @@ button{
             padding-left: 30px;
             margin-bottom: 0px;
             border-radius: 0.5cm;
-            position: absolute;
+            /*position: absolute;*/
         }
         .first{
            padding-left: 165px;
