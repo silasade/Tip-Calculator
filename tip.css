@@ -3,7 +3,7 @@
 }
 .second{
     background-color: hsl(183, 100%, 15%);
-   overflow:scroll;
+    overflow:scroll;
     
 }
 .button{
@@ -2950,7 +2950,7 @@ button{
             font-size: 18px;
         }
 }
-main{
-    position: fixed;
+.main{
+    
     overflow: scroll;
 }
