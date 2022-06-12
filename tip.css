@@ -1,6 +1,6 @@
 :root{
     background-color: hsl(185, 41%, 84%);
-   
+   overflow: scroll; 
 }
 
 .second{
@@ -2952,7 +2952,7 @@ button{
             font-size: 18px;
         }
 }
-.main{
+/*.main{
     position: fixed;
     overflow: scroll;
 }
