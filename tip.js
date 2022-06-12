@@ -41,14 +41,14 @@ Button.map(button=>button.addEventListener('click',(event)=>{
             people1.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
                 
             })
             calc.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
             })
             if(log==null){
@@ -70,18 +70,18 @@ Button.map(button=>button.addEventListener('click',(event)=>{
         case "10%":
             numb=0.1*log;
             person.innerText="$ " +numb.toFixed(2);
-            person1.innerText="$ "+numb*log1
+            person1.innerText="$ "+(numb*log1).toFixed(2);
             people1.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
                 
             })
             calc.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
             })
             
@@ -97,18 +97,18 @@ Button.map(button=>button.addEventListener('click',(event)=>{
         case "15%":
                 numb=0.15*log;
                 person.innerText="$ " +numb.toFixed(2);
-                person1.innerText="$ "+numb*log1
+                person1.innerText="$ "+(numb*log1).toFixed(2);
                 people1.addEventListener("keypress",(event)=>{
                     if(event.keyCode==13){
                         person.innerText="$ " +numb.toFixed(2);
-                        person1.innerText="$ "+numb*log1
+                        person1.innerText="$ "+(numb*log1).toFixed(2);
                     }
                     
                 })
                 calc.addEventListener("keypress",(event)=>{
                     if(event.keyCode==13){
                         person.innerText="$ " +numb.toFixed(2);
-                        person1.innerText="$ "+numb*log1
+                        person1.innerText="$ "+(numb*log1).toFixed(2);
                     }
                 })
                 if(log==null){
@@ -123,7 +123,7 @@ Button.map(button=>button.addEventListener('click',(event)=>{
         case "20%":
                     numb=0.2*log;
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                     people1.addEventListener("keypress",(event)=>{
                         if(event.keyCode==13){
                             person.innerText="$ " +numb.toFixed(2);
@@ -134,7 +134,7 @@ Button.map(button=>button.addEventListener('click',(event)=>{
                     calc.addEventListener("keypress",(event)=>{
                         if(event.keyCode==13){
                             person.innerText="$ " +numb.toFixed(2);
-                            person1.innerText="$ "+numb*log1
+                            person1.innerText="$ "+(numb*log1).toFixed(2);
                         }
                     })
                     if(log==null){
@@ -153,14 +153,14 @@ Button.map(button=>button.addEventListener('click',(event)=>{
             people1.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
                 
             })
             calc.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
             })
             if(log==null){
@@ -175,18 +175,18 @@ Button.map(button=>button.addEventListener('click',(event)=>{
         case "50%":
             numb=0.5*log;
             person.innerText="$ " +numb.toFixed(2);
-            person1.innerText="$ "+numb*log1
+            person1.innerText="$ "+(numb*log1).toFixed(2);
             people1.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
                 
             })
             calc.addEventListener("keypress",(event)=>{
                 if(event.keyCode==13){
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                 }
             })
             if(log==null){
@@ -208,10 +208,10 @@ Button.map(button=>button.addEventListener('click',(event)=>{
                 if(event.keyCode==13){
                     event.preventDefault();
                     person.innerText="$ " +numb.toFixed(2);
-                    person1.innerText="$ "+numb*log1
+                    person1.innerText="$ "+(numb*log1).toFixed(2);
                     people1.addEventListener("keypress",(event)=>{
                         if(event.keyCode==13){
-                            person1.innerText="$ "+numb*log1
+                            person1.innerText="$ "+(numb*log1).toFixed(2);
                         }
                     })
                     
