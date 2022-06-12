@@ -1,8 +1,10 @@
 :root{
     background-color: hsl(185, 41%, 84%);
-   overflow: scroll; 
-}
+  
+body{
+ overflow: scroll; 
 
+}
 .second{
     background-color: hsl(183, 100%, 15%);
    
