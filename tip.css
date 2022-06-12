@@ -2952,3 +2952,7 @@ button{
             font-size: 18px;
         }
 }
+.main{
+    position: fixed;
+    overflow: scroll;
+}
